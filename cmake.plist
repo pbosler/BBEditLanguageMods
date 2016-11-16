@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- CMake Language module for BBEdit / Textwrangler
+	  Peter Bosler -->
+	<dict>
+		<key>BBEditDocumentType</key>
+			<string>CodelessLanguageModule</string>
+		<key>BBLMLanguageDisplayName</key>
+			<string>CMake</string>
+		<key>BBLMLanguageCode</key>
+			<string>CMake</string>
+		<key>BBLMSupportsTextCompletion</key>
+			<false/>
+		<key>BBLMIsCaseSensitive</key>
+			<false/>
+		<key>BBLMScansFunctions</key>
+			<false/>
+		<key>BBLMColorsSyntax</key>
+			<true/>
+		<key>BBLMCommentLineDefault</key>
+			<string>#</string>
+		<key>BBLMKeywordList</key>
+			<array>
+				<string>(</string>
+				<string>)</string>
+				<string>{</string>
+				<string>}</string>
+				<string>if</string>
+				<string>else</string>
+				<string>elseif</string>
+				<string>endif</string>
+				<string>foreach</string>
+				<string>endforeach</string>
+				<string>endmacro</string>
+				<string>ABSTRACT_FILES</string>
+				<string>ADD_CUSTOM_COMMAND</string>
+				<string>ADD_CUSTOM_TARGET</string>
+				<string>ADD_DEFINITIONS</string>
+				<string>ADD_DEPENDENCIES</string>
+				<string>ADD_EXECUTABLE</string>
+				<string>ADD_LIBRARY</string>
+				<string>ADD_TEST</string>
+				<string>ADD_SUBDIRECTORY</string>
+				<string>AUX_SOURCE_DIRECTORY   </string>
+				<string>BUILD_COMMAND</string>
+				<string>BUILD_NAME</string>
+				<string>CMAKE_MINIMUM_REQUIRED</string>
+				<string>CONFIGURE_FILE</string>
+				<string>CREATE_TEST_SOURCELIST  </string>
+				<string>ENABLE_LANGUAGE</string>
+				<string>ENABLE_TESTING</string>
+				<string>EXEC_PROGRAM</string>
+				<string>EXPORT_LIBRARY_DEPENDENCIES  </string>
+				<string>FILE</string>
+				<string>FIND_FILE</string>
+				<string>FIND_LIBRARY</string>
+				<string>FIND_PACKAGE</string>
+				<string>FIND_PATH</string>
+				<string>FIND_PROGRAM</string>
+				<string>FLTK_WRAP_UI</string>
+				<string>FOREACH</string>
+				<string>GET_CMAKE_PROPERTY</string>
+				<string>GET_FILENAME_COMPONENT</string>
+				<string>GET_SOURCE_FILE_PROPERTY</string>
+				<string>GET_TARGET_PROPERTY</string>
+				<string>INCLUDE_DIRECTORIES</string>
+				<string>INCLUDE_EXTERNAL_MSPROJECT</string>
+				<string>INCLUDE_REGULAR_EXPRESSION</string>
+				<string>INCLUDE</string>
+				<string>INSTALL</string>
+				<string>INSTALL_FILES</string>
+				<string>INSTALL_PROGRAMS</string>
+				<string>INSTALL_TARGETS</string>
+				<string>ITK_WRAP_TCL</string>
+				<string>LINK_DIRECTORIES</string>
+				<string>LINK_LIBRARIES</string>
+				<string>LIST</string>
+				<string>LOAD_CACHE</string>
+				<string>LOAD_COMMAND</string>
+				<string>MAKE_DIRECTORY</string>
+				<string>MARK_AS_ADVANCED</string>
+				<string>MESSAGE</string>
+				<string>OPTION</string>
+				<string>OUTPUT_REQUIRED_FILES</string>
+				<string>PROJECT</string>
+				<string>QT_WRAP_CPP</string>
+				<string>QT_WRAP_UI</string>
+				<string>REMOVE</string>
+				<string>REMOVE_DEFINITIONS</string>
+				<string>SEPARATE_ARGUMENTS</string>
+				<string>SET</string>
+				<string>SET_DIRECTORY_PROPERTIES</string>
+				<string>SET_SOURCE_FILES_PROPERTIES</string>
+				<string>SET_TARGET_PROPERTIES</string>
+				<string>SITE_NAME</string>
+				<string>SOURCE_FILES</string>
+				<string>SOURCE_FILES_REMOVE</string>
+				<string>SOURCE_GROUP</string>
+				<string>SUBDIR_DEPENDS</string>
+				<string>SUBDIRS</string>
+				<string>TARGET_LINK_LIBRARIES</string>
+				<string>TARGET_INCLUDE_DIRECTORIES</string>
+				<string>TRY_COMPILE</string>
+				<string>TRY_RUN</string>
+				<string>USE_MANGLED_MESA</string>
+				<string>UTILITY_SOURCE</string>
+				<string>VARIABLE_REQUIRES</string>
+				<string>VTK_MAKE_INSTANTIATOR</string>
+				<string>VTK_WRAP_JAVA</string>
+				<string>VTK_WRAP_TCL</string>
+				<string>WRAP_EXCLUDE_FILES</string>
+				<string>WRITE_FILE</string>
+				<string>INCLUDE_DIRECTORIES</string>
+				<string>INCLUDE_REGULAR_EXPRESSION\ </string>
+				<string>$ENV</string>
+			</array>
+		<key>BBLMPredefinedNameList</key>
+			<array>
+				<string>@ONLY </string>
+				<string>-D </string>
+				<string>CMAKE_BUILD_TYPE</string>
+				<string>ABSOLUTE</string>
+				<string>ALL</string>
+				<string>AND</string>
+				<string>APPEND</string>
+				<string>ARCHIVE</string>
+				<string>ARGS</string>
+				<string>ASCII</string>
+				<string>BEFORE </string>
+				<string>C</string>
+				<string>C++</string>
+				<string>CACHE</string>
+				<string>CLEAR</string>
+				<string>CMAKE_FLAGS</string>
+				<string>COMMAND</string>
+				<string>COMMENT</string>
+				<string>COMPARE</string>
+				<string>COMPILE_DEFENITIONS</string>
+				<string>CONFIGURE</string>
+				<string>COPYONLY </string>
+				<string>DEFINED</string>
+				<string>DEPENDS</string>
+				<string>DESTINATION</string>
+				<string>DOC</string>
+				<string>EQUAL</string>
+				<string>ESCAPE_QUOTES</string>
+				<string>EXCLUDE</string>
+				<string>EXCLUDE_FROM_ALL</string>
+				<string>EXISTS</string>
+				<string>EXPORT_MACRO</string>
+				<string>EXT</string>
+				<string>EXTRA_INCLUDE </string>
+				<string>FATAL_ERROR</string>
+				<string>FILES</string>
+				<string>FIND</string>
+				<string>FORCE</string>
+				<string>FUNCTION</string>
+				<string>GLOB</string>
+				<string>GLOB_RECURSE</string>
+				<string>GREATER</string>
+				<string>GROUP_SIZE </string>
+				<string>HEADER_LOCATION</string>
+				<string>IMMEDIATE </string>
+				<string>INCLUDE_INTERNALS</string>
+				<string>INCLUDES</string>
+				<string>Java </string>
+				<string>LESS </string>
+				<string>MACOSX_BUNDLE</string>
+				<string>MAIN_DEPENDENCY</string>
+				<string>MATCH</string>
+				<string>MATCHALL</string>
+				<string>MATCHES</string>
+				<string>MODULE</string>
+				<string>NAME</string>
+				<string>NAME_WE</string>
+				<string>NAMES</string>
+				<string>NO_DEFAULT_PATH</string>
+				<string>NO_SYSTEM_PATH</string>
+				<string>NOT</string>
+				<string>NOTEQUAL </string>
+				<string>OPTIONAL</string>
+				<string>OR</string>
+				<string>OUTPUT</string>
+				<string>OUTPUT_VARIABLE </string>
+				<string>PATHS</string>
+				<string>POST_BUILD</string>
+				<string>PRE_BUILD</string>
+				<string>PRE_LINK</string>
+				<string>PREORDER</string>
+				<string>PROPERTIES</string>
+				<string>PRIVATE</string>
+				<string>PUBLIC</string>
+				<string>READ</string>
+				<string>READ_WITH_PREFIX</string>
+				<string>REGEX</string>
+				<string>REGULAR_EXPRESSION</string>
+				<string>REMOVE_DUPLICATES</string>
+				<string>REPLACE</string>
+				<string>REQUIRED</string>
+				<string>RETURN_VALUE</string>
+				<string>REVERSE</string>
+				<string>RUNTIME_DIRECTORY </string>
+				<string>SEND_ERROR</string>
+				<string>SHARED</string>
+				<string>SOURCES</string>
+				<string>STATIC</string>
+				<string>STATUS</string>
+				<string>STREQUAL</string>
+				<string>STRGREATER</string>
+				<string>STRLESS </string>
+				<string>TARGET </string>
+				<string>TOLOWER</string>
+				<string>TOUPPER </string>
+				<string>VERSION </string>
+				<string>WRITE </string>
+				<string>ABSTRACT</string>
+				<string>ADDITIONAL_MAKE_CLEAN_FILES </string>
+				<string>ARGV0</string>
+				<string>ARGV1</string>
+				<string>ARGV2</string>
+				<string>ARGV3</string>
+				<string>ARGV4</string>
+				<string>ARGV5</string>
+				<string>ARGV6</string>
+				<string>ARGV7</string>
+				<string>ARGV8</string>
+				<string>ARGV9</string>
+				<string>ARGC</string>
+				<string>ARGN</string>
+				<string>ARGV </string>
+				<string>BOOL </string>
+				<string>COMPILE_FLAGS </string>
+				<string>debug </string>
+				<string>DEFINE_SYMBOL </string>
+				<string>FILEPATH </string>
+				<string>GENERATED </string>
+				<string>HEADER_FILE_ONLY   </string>
+				<string>LINK_FLAGS </string>
+				<string>optimized </string>
+				<string>OBJECT_DEPENDS</string>
+				<string>OFF</string>
+				<string>ON </string>
+				<string>PATH PREFIX</string>
+				<string>INTERNAL</string>
+				<string>STRING SUFFIX </string>
+				<string>WIN32 WRAP_EXCLUDE </string>
+				<string>PROJECT_BINARY_DIR</string>
+				<string>CMAKE_ROOT </string>
+				<string>CMAKE_INSTALL_PREFIX</string>
+				<string>CMAKE_BACKWARDS_COMPATIBILITY</string>
+				<string>CMAKE_VERBOSE_MAKEFILE</string>
+				<string>CMAKE_CONFIGURATION_TYPES</string>
+				<string>CMAKE_CURRENT_SOURCE_DIR</string>
+				<string>CMAKE_INSTALL_PREFIX</string>
+				<string>POST_INSTALL_SCRIPT </string>
+				<string>PRE_INSTALL_SCRIPT</string>
+				<string>CMAKE_GENERATOR</string>
+				<string>CMAKE_BINARY_DIR</string>
+				<string>CMAKE_COMMAND</string>
+				<string>CMAKE_CURRENT_BINARY_DIR</string>
+				<string>CMAKE_CURRENT_LIST_FILE</string>
+				<string>CMAKE_CURRENT_LIST_DIR</string>
+				<string>CMAKE_CURRENT_LIST_LINE</string>
+				<string>CMAKE_FILES_DIRECTORY</string>
+				<string>CMAKE_MODULE_PATH</string>
+				<string>CMAKE_ROOT</string>
+				<string>CMAKE_SOURCE_DIR</string>
+				<string>EXECUTABLE_OUTPUT_PATH</string>
+				<string>LIBRARY_OUTPUT_PATH</string>
+				<string>PROJECT_NAME</string>
+				<string>CMAKE_PROJECT_NAME</string>
+				<string>PROJECT_SOURCE_DIR</string>
+				<string>CMAKE_INCLUDE_PATH</string>
+				<string>CMAKE_LIBRARY_PATH</string>
+				<string>CMAKE_PREFIX_PATH</string>
+				<string>CMAKE_INSTALL_ALWAYS</string>
+				<string>DESTDIR</string>
+				<string>CMAKE_MAJOR_VERSION</string>
+				<string>CMAKE_MINOR_VERSION</string>
+				<string>CMAKE_PATCH_VERSION</string>
+				<string>CMAKE_TWEAK_VERSION</string>
+				<string>CMAKE_VERSION</string>
+				<string>CMAKE_SYSTEM</string>
+				<string>CMAKE_SYSTEM_NAME</string>
+				<string>CMAKE_SYSTEM_VERSION</string>
+				<string>CMAKE_SYSTEM_PROCESSOR</string>
+				<string>UNIX</string>
+				<string>WIN32</string>
+				<string>APPLE</string>
+				<string>MINGW</string>
+				<string>MSYS</string>
+				<string>CYGWIN</string>
+				<string>BORLAND</string>
+				<string>WATCOM</string>
+				<string>MSVC</string>
+				<string>MSCV_IDE</string>
+				<string>MSCV60</string>
+				<string>MSCV70</string>
+				<string>MSCV71</string>
+				<string>MSCV80</string>
+				<string>MSCV90</string>
+				<string>MSCV10</string>
+				<string>CMAKE_COMPILER_2005</string>
+				<string>CMAKE_C_COMPILER_ID</string>
+				<string>CMAKE_CXX_COMPILER_ID</string>
+				<string>CMAKE_COMPILER_IS_GNUCC</string>
+				<string>CMAKE_COMPILER_IS_GNUCXX</string>
+				<string>CMAKE_SKIP_RULE_DEPENDENCY</string>
+				<string>CMAKE_SKIP_INSTALL_ALL_DEPENDENCY</string>
+				<string>CMAKE_SKIP_PATH</string>
+				<string>CMAKE_INCLUDE_CURRENT_DIR</string>
+				<string>CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE</string>
+				<string>CMAKE_SUPPRESS_REGENERATION</string>
+				<string>CMAKE_COLOR_MAKEFILE</string>
+				<string>CMAKE_SKIP_PREPROCESSED_SOURCE_RULES</string>
+				<string>CMAKE_SKIP_ASSEMBLY_SOURCE_RULES</string>
+				<string>CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS</string>
+				<string>BUILD_SHARED_LIBS</string>
+				<string>CMAKE_AR</string>
+				<string>CMAKE_CONFIGURATION_TYPES</string>
+				<string>CMAKE_C_COMPILER</string>
+				<string>CMAKE_C_FLAGS</string>
+				<string>CMAKE_C_FLAGS_DEBUG</string>
+				<string>CMAKE_C_FLAGS_RELEASE</string>
+				<string>CMAKE_C_FLAGS_RELWITHDEBINFO</string>
+				<string>CMAKE_C_OUTPUT_EXTENSION</string>
+				<string>CMAKE_CXX_OUTPUT_EXTENSION</string>
+				<string>CMAKE_CFG_INTDIR</string>
+				<string>CMAKE_CXX_COMPILER</string>
+				<string>CMAKE_CXX_FLAGS</string>
+				<string>CMAKE_CXX_FLAGS_DEBUG</string>
+				<string>CMAKE_CXX_FLAGS_RELEASE</string>
+				<string>CMAKE_CXX_FLAGS_RELWITHDEBINFO</string>
+				<string>CMAKE_RANLIB</string>
+				<string>CMAKE_SHARED_LINKER_FLAGS</string>
+				<string>CMAKE_C_IGNORE_EXTENSIONS</string>
+				<string>CMAKE_C_SOURCE_FILE_EXTENSIONS</string>
+				<string>CMAKE_CXX_IGNORE_EXTENSIONS</string>
+				<string>CMAKE_CXX_SOURCE_FILE_EXTENSIONS</string>
+				<string>CMAKE_EXECUTABLE_SUFFICE</string>
+				<string>CMAKE_FIND_LIBRARY_PREFIXES</string>
+				<string>CMAKE_FIND_LIBRARAY_SUFFIXES</string>
+				<string>CMAKE_IMPORT_LIBRARY_PREFIX</string>
+				<string>CMAKE_IMPORT_LIBRARY_SUFFIX</string>
+				<string>CMAKE_LINK_LIBRARY_SUFFIX</string>
+				<string>CMAKE_RC_OUTPUT_EXTENSION</string>
+				<string>CMAKE_RC_SOURCE_FILE_EXTENSIONS</string>
+				<string>CMAKE_SHARED_LIBRARY_PREFIX</string>
+				<string>CMAKE_SHARED_LIBRARY_SUFFIX</string>
+				<string>CMAKE_SHARED_MODULE_PREFIX</string>
+				<string>CMAKE_SHARED_MODULE_SUFFIX</string>
+				<string>CMAKE_STATIC_LIBRARY_PREFIX</string>
+				<string>CMAKE_STATIC_LIBRARY_SUFFIX</string>
+				<string>CMAKE_DEBUG_POSTFIX</string>
+				<string>CMAKE_RELEASE_POSTFIX</string>
+				<string>CMAKE_CXX_CREATE_SHARED_LIBRARY</string>
+				<string>CMAKE_CXX_CREATE_SHARED_MODULE</string>
+				<string>CMAKE_CXX_CREATE_STATIC_LIBRARY</string>
+				<string>CMAKE_CXX_COMPILE_OBJECT</string>
+				<string>CMAKE_CXX_LINK_EXECUTABLE</string>
+				<string>CMAKE_C_CREATE_SHARED_LIBRARY</string>
+				<string>CMAKE_C_CREATE_SHARED_MODULE</string>
+				<string>CMAKE_C_CREATE_STATIC_LIBRARY</string>
+				<string>CMAKE_C_COMPILE_OBJECT</string>
+				<string>CMAKE_C_LINK_EXECUTABLE</string>
+				<string>ASSEMBLY_SOURCE</string>
+				<string>FLAGS</string>
+				<string>LANGUAGE_COMPILE_FLAGS</string>
+				<string>LIBRARY</string>
+				<string>LINK_FLAGS</string>
+				<string>LINK_LIBRARIES</string>
+				<string>OBJECT</string>
+				<string>OBJECTS</string>
+				<string>OBJECTS_QUOTED</string>
+				<string>OBJECT_DIR</string>
+				<string>PREPROCESSED_SOURCE</string>
+				<string>RUNTIME</string>
+				<string>SOURCE</string>
+				<string>TARGETS</string>
+				<string>TARGET_BASE</string>
+				<string>TARGET_IMPLIB</string>
+				<string>TARGET_INSTALLNAME_DIR</string>
+				<string>TARGET_PDB</string>
+				<string>TARGET_QUOTED</string>
+				<string>TARGET_SONAME</string>
+				<string>TARGET_VERSION_MAJOR</string>
+				<string>TARGET_VERSION_MINOR</string>
+			</array>
+		<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.cmake</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.cmake.in</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.ctest</string>
+				</dict>	
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.ctest.in</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.h.in</string>
+				</dict>
+			</array>
+		<key>BBLMFileNamesToMatch</key>
+			<array>
+				<string>CMakeLists.txt</string>
+				<string>CMakeCache.txt</string>
+			</array>
+		<key>Language Features</key>
+			<dict>
+				 <key>Identifier and Keyword Characters</key>
+					<string>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_</string>
+				 <key>Open Strings 1</key>
+					<string>"</string>
+				 <key>Close Strings 1</key>
+					<string>"</string>
+				 <key>Open Strings 2</key>
+					<string>'</string>
+				 <key>Close Strings 2</key>
+					 <string>'</string>
+				 <key>End-of-line Ends Strings 1</key>
+					 <false/>
+				 <key>End-of-line Ends Strings 2</key>
+					 <false/>
+				 <key>Escape Char in Strings 1</key>
+					 <string>\</string>
+				 <key>Escape Char in Strings 2</key>
+					 <string>\</string>
+				<key>Open Line Comments</key>
+					<string>#</string>
+			</dict>
+	</dict>
+</plist>
+	
