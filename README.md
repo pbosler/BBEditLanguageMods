@@ -10,6 +10,13 @@ Simply clone the repository, then copy the .plist files you want to either BBEdi
 Or, to copy all of the .plist files in this repository, run the included `copy_plists_to_library.py` Python script.
 
 
+# Copyright info
+This repository does not include any new intellectual property; it simply provides implementations of tools that already exist.
+BBEdit and TextWrangler are distributed by [Bare Bones Software](http://www.barebones.com).
+The NCAR Command Language (NCL) is distributed by the [National Center for Atmospheric Research (NCAR)](https://www.ncl.ucar.edu/overview.shtml).
+CMake is distributed by [Kitware](https://cmake.org).
+
+
 
 
 
