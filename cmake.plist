@@ -161,6 +161,7 @@
 				<string>GREATER</string>
 				<string>GROUP_SIZE </string>
 				<string>HEADER_LOCATION</string>
+				<string>HINTS</string>
 				<string>IMMEDIATE </string>
 				<string>INCLUDE_INTERNALS</string>
 				<string>INCLUDES</string>
