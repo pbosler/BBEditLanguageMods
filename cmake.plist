@@ -11,7 +11,7 @@
 		<key>BBLMLanguageCode</key>
 			<string>CMk</string>
 		<key>BBLMSupportsTextCompletion</key>
-			<false/>
+			<true/>
 		<key>BBLMIsCaseSensitive</key>
 			<false/>
 		<key>BBLMScansFunctions</key>

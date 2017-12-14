@@ -28,8 +28,8 @@ def main(argv):
 			sys.exit()
 		elif opt in ("-t", "--tw", "--textwrangler"):
 			print "TO DO: Find TextWrangler directory."
-# 			for file in glob.glob("*.plist"):
-# 				commands.append("cp " + file + " $HOME/Desktop/.")
+#			for file in glob.glob("*.plist"):
+#				commands.append("cp " + file + " $HOME/Desktop/.")
 		elif opt in ("-b", "--bb", "--bbedit"):
 			for file in glob.glob("*.plist"):
 				commands.append("cp " + file + " $HOME/Library/Application\ Support/BBEdit/Language\ Modules/.")
@@ -37,6 +37,7 @@ def main(argv):
 			print_version()
 	
 	for cmd in commands:
+		print cmd
 		os.system(cmd)
 	
 	print_note()

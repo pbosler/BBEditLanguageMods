@@ -14,7 +14,7 @@
     <key>BBLMColorsSyntax</key>
     <true/>
      <key>BBLMSupportsTextCompletion</key>
-     <false/>
+     <true/>
     <key>BBLMScansFunctions</key>
     <true/>
     <key>BBLMIsCaseSensitive</key>
