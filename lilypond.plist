@@ -533,13 +533,16 @@
                 <string>\varcoda</string>
                 <string>\vcenter</string>
                 <string>\verbatim-file</string>
+                <string>\version</string>
                 <string>\verylongfermata</string>
                 <string>\virga</string>
                 <string>\virgula</string>
                 <string>\voiceFourStyle</string>
                 <string>\voiceNeutralStyle</string>
                 <string>\voiceOne</string>
-                <string>\voiceOne ... \voiceFour</string>
+                <string>\voiceTwo</string>
+                <string>\voiceThree</string>
+                <string>\voiceFour</string>
                 <string>\voiceOneStyle</string>
                 <string>\voiceThreeStyle</string>
                 <string>\voiceTwoStyle</string>
@@ -560,13 +563,15 @@
                 <string>\wordwrap-lines</string>
                 <string>\wordwrap-string</string>
                 <string>\wordwrap-string-internal</string>
-                <string>]</string>
-                <string>^</string>
-                <string>_</string>
-                <string>|</string>
-                <string>~</string>
-                <string>A</string>
-                <string>absolute</string>
+		    </array>
+		<key>BBLMPredefinedNameList</key>
+		    <array>
+		        <string>Staff</string>
+		        <string>#guitar-tuning</string>
+		        <string>#default-fret-table</string>
+		        <string>stringNumberOrientations</string>
+		        <string>fingeringOrientations</string>
+		        <string>absolute</string>
                 <string>accepts</string>
                 <string>acciaccatura</string>
                 <string>accidentalStyle</string>
@@ -606,7 +611,6 @@
                 <string>autoBeamOff</string>
                 <string>autoBeamOn</string>
                 <string>autochange</string>
-                <string>B</string>
                 <string>balloonGrobText</string>
                 <string>balloonLengthOff</string>
                 <string>balloonLengthOn</string>
@@ -641,7 +645,6 @@
                 <string>breakable</string>
                 <string>breathe</string>
                 <string>breve</string>
-                <string>C</string>
                 <string>cadenzaOff</string>
                 <string>cadenzaOn</string>
                 <string>center-align</string>
@@ -682,7 +685,6 @@
                 <string>cueDuring</string>
                 <string>cueDuringWithClef</string>
                 <string>currentBarNumber</string>
-                <string>D</string>
                 <string>deadNote</string>
                 <string>decr</string>
                 <string>decresc</string>
@@ -715,7 +717,6 @@
                 <string>DynamicLineSpanner</string>
                 <string>dynamicNeutral</string>
                 <string>dynamicUp</string>
-                <string>E</string>
                 <string>easyHeadsOff</string>
                 <string>easyHeadsOn</string>
                 <string>endSpanners</string>
@@ -724,7 +725,6 @@
                 <string>eventChords</string>
                 <string>expandFullBarRests</string>
                 <string>extra-offset</string>
-                <string>F</string>
                 <string>f</string>
                 <string>featherDurations</string>
                 <string>fermataMarkup</string>
@@ -752,7 +752,6 @@
                 <string>FretBoards</string>
                 <string>funkHeads</string>
                 <string>funkHeadsMinor</string>
-                <string>G</string>
                 <string>general-align</string>
                 <string>glissando</string>
                 <string>grace</string>
@@ -762,7 +761,6 @@
                 <string>Grid_point_engraver</string>
                 <string>grobdescriptions</string>
                 <string>grow-direction</string>
-                <string>H</string>
                 <string>halign</string>
                 <string>harmonicByFret</string>
                 <string>harmonicByRatio</string>
@@ -776,7 +774,6 @@
                 <string>horizontal-shift</string>
                 <string>Horizontal_bracket_engraver</string>
                 <string>huge</string>
-                <string>I</string>
                 <string>improvisationOff</string>
                 <string>improvisationOn</string>
                 <string>indent</string>
@@ -786,14 +783,11 @@
                 <string>inversion</string>
                 <string>ionian</string>
                 <string>italic</string>
-                <string>J</string>
                 <string>justified-lines</string>
                 <string>justify</string>
-                <string>K</string>
                 <string>keepWithTag</string>
                 <string>key</string>
                 <string>killCues</string>
-                <string>L</string>
                 <string>label</string>
                 <string>laissezVibrer</string>
                 <string>language</string>
@@ -814,13 +808,11 @@
                 <string>ly:optimal-breaking</string>
                 <string>ly:page-turn-breaking</string>
                 <string>lydian</string>
-                <string>M</string>
                 <string>m</string>
                 <string>magnify</string>
                 <string>magstep</string>
                 <string>maj</string>
                 <string>major</string>
-                <string>major seven symbols</string>
                 <string>majorSevenSymbol</string>
                 <string>make-dynamic-script</string>
                 <string>make-pango-font-tree</string>
@@ -862,7 +854,6 @@
                 <string>MultiMeasureRestText</string>
                 <string>musicglyph</string>
                 <string>musicMap</string>
-                <string>N</string>
                 <string>name</string>
                 <string>neo-modern</string>
                 <string>neo-modern-cautionary</string>
@@ -880,7 +871,6 @@
                 <string>Note_heads_engraver</string>
                 <string>null</string>
                 <string>numericTimeSignature</string>
-                <string>O</string>
                 <string>octaveCheck</string>
                 <string>offset</string>
                 <string>omit</string>
@@ -893,7 +883,6 @@
                 <string>outside-staff-priority</string>
                 <string>overrideProperty</string>
                 <string>overrideTimeSignatureSettings</string>
-                <string>P</string>
                 <string>p</string>
                 <string>pad-around</string>
                 <string>pad-markup</string>
@@ -954,11 +943,9 @@
                 <string>print-first-page-number</string>
                 <string>print-page-number</string>
                 <string>pushToTag</string>
-                <string>Q</string>
                 <string>quotedCueEventTypes</string>
                 <string>quotedEventTypes</string>
                 <string>quoteDuring</string>
-                <string>R</string>
                 <string>r</string>
                 <string>ragged-bottom</string>
                 <string>ragged-last</string>
@@ -981,7 +968,6 @@
                 <string>right-margin</string>
                 <string>rightHandFinger</string>
                 <string>rounded-box</string>
-                <string>S</string>
                 <string>s</string>
                 <string>sacredHarpHeads</string>
                 <string>sacredHarpHeadsMinor</string>
@@ -1033,6 +1019,7 @@
                 <string>spacingTweaks</string>
                 <string>Span_stem_engraver</string>
                 <string>spp</string>
+                <string>Staff</string>
                 <string>staff-affinity</string>
                 <string>staff-staff-spacing</string>
                 <string>Staff.midiInstrument</string>
@@ -1066,7 +1053,6 @@
                 <string>system-separator-markup</string>
                 <string>system-system-spacing</string>
                 <string>systems-per-page</string>
-                <string>T</string>
                 <string>tabChordRepeats</string>
                 <string>tabChordRepetition</string>
                 <string>TabStaff</string>
@@ -1120,21 +1106,18 @@
                 <string>tweak</string>
                 <string>two-sided</string>
                 <string>type</string>
-                <string>U</string>
                 <string>unaCorda</string>
                 <string>underline</string>
                 <string>undo</string>
                 <string>unfold</string>
                 <string>unfoldRepeats</string>
                 <string>unHideNotes</string>
-                <string>V</string>
                 <string>VaticanaStaff</string>
                 <string>VerticalAxisGroup</string>
                 <string>voice</string>
                 <string>Voice</string>
                 <string>voiceOne</string>
                 <string>void</string>
-                <string>W</string>
                 <string>walkerHeads</string>
                 <string>walkerHeadsMinor</string>
                 <string>whichBar</string>
@@ -1142,14 +1125,10 @@
                 <string>withMusicProperty</string>
                 <string>wordwrap</string>
                 <string>wordwrap-lines</string>
-                <string>X</string>
                 <string>X-offset</string>
                 <string>x11-color</string>
                 <string>xNote</string>
                 <string>xNotesOn</string>
-		    </array>
-		<key>BBLMPredefinedNameList</key>
-		    <array>
 		        <string>black</string>
                 <string>white</string>
                 <string>red</string>
