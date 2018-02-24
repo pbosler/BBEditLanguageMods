@@ -78,6 +78,7 @@
 				<string>LIST</string>
 				<string>LOAD_CACHE</string>
 				<string>LOAD_COMMAND</string>
+				<string>MACRO</string>
 				<string>MAKE_DIRECTORY</string>
 				<string>MARK_AS_ADVANCED</string>
 				<string>MESSAGE</string>
