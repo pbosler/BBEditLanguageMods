@@ -237,18 +237,18 @@
 				<string>DEFINE_SYMBOL </string>
 				<string>FILEPATH </string>
 				<string>GENERATED </string>
-				<string>HEADER_FILE_ONLY   </string>
-				<string>LINK_FLAGS </string>
-				<string>optimized </string>
+				<string>HEADER_FILE_ONLY</string>
+				<string>LINK_FLAGS</string>
+				<string>optimized</string>
 				<string>OBJECT_DEPENDS</string>
 				<string>OFF</string>
-				<string>ON </string>
+				<string>ON</string>
 				<string>PATH PREFIX</string>
 				<string>INTERNAL</string>
 				<string>STRING SUFFIX </string>
 				<string>WIN32 WRAP_EXCLUDE </string>
 				<string>PROJECT_BINARY_DIR</string>
-				<string>CMAKE_ROOT </string>
+				<string>CMAKE_ROOT</string>
 				<string>CMAKE_INSTALL_PREFIX</string>
 				<string>CMAKE_BACKWARDS_COMPATIBILITY</string>
 				<string>CMAKE_VERBOSE_MAKEFILE</string>
@@ -388,6 +388,11 @@
 				<string>TARGET_SONAME</string>
 				<string>TARGET_VERSION_MAJOR</string>
 				<string>TARGET_VERSION_MINOR</string>
+				<string>WARNING</string>
+				<string>STATUS</string>
+				<string>AUTHOR_WARNING</string>
+				<string>SEND_ERROR</string>
+				<string>DEPRECATION</string>
 			</array>
 		<key>BBLMSuffixMap</key>
 			<array>
