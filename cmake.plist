@@ -33,6 +33,7 @@
 				<string>foreach</string>
 				<string>endforeach</string>
 				<string>endmacro</string>
+				<string>ENDFUNCTION</string>
 				<string>ABSTRACT_FILES</string>
 				<string>ADD_CUSTOM_COMMAND</string>
 				<string>ADD_CUSTOM_TARGET</string>
@@ -60,8 +61,10 @@
 				<string>FIND_PROGRAM</string>
 				<string>FLTK_WRAP_UI</string>
 				<string>FOREACH</string>
+				<string>FUNCTION</string>
 				<string>GET_CMAKE_PROPERTY</string>
 				<string>GET_FILENAME_COMPONENT</string>
+				<string>GET_PROPERTY</string>
 				<string>GET_SOURCE_FILE_PROPERTY</string>
 				<string>GET_TARGET_PROPERTY</string>
 				<string>INCLUDE_DIRECTORIES</string>
@@ -138,6 +141,7 @@
 				<string>COMMENT</string>
 				<string>COMPARE</string>
 				<string>COMPILE_DEFENITIONS</string>
+				<string>COMPILE_FLAGS</string>
 				<string>CONFIGURE</string>
 				<string>COPYONLY </string>
 				<string>DEFINED</string>
@@ -153,10 +157,10 @@
 				<string>EXT</string>
 				<string>EXTRA_INCLUDE </string>
 				<string>FATAL_ERROR</string>
+				<string>FALSE</string>
 				<string>FILES</string>
 				<string>FIND</string>
 				<string>FORCE</string>
-				<string>FUNCTION</string>
 				<string>GLOB</string>
 				<string>GLOB_RECURSE</string>
 				<string>GREATER</string>
@@ -166,8 +170,9 @@
 				<string>IMMEDIATE </string>
 				<string>INCLUDE_INTERNALS</string>
 				<string>INCLUDES</string>
-				<string>Java </string>
-				<string>LESS </string>
+				<string>Java</string>
+				<string>LESS</string>
+				<string>LINK_FLAGS</string>
 				<string>MACOSX_BUNDLE</string>
 				<string>MAIN_DEPENDENCY</string>
 				<string>MATCH</string>
@@ -184,7 +189,8 @@
 				<string>OPTIONAL</string>
 				<string>OR</string>
 				<string>OUTPUT</string>
-				<string>OUTPUT_VARIABLE </string>
+				<string>OUTPUT_VARIABLE</string>
+				<string>PARENT_SCOPE</string>
 				<string>PATHS</string>
 				<string>POST_BUILD</string>
 				<string>PRE_BUILD</string>
@@ -213,6 +219,7 @@
 				<string>STRLESS </string>
 				<string>TARGET </string>
 				<string>TOLOWER</string>
+				<string>TRUE</string>
 				<string>TOUPPER </string>
 				<string>VERSION </string>
 				<string>WRITE </string>
