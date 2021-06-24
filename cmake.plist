@@ -13,7 +13,7 @@
 		<key>BBLMSupportsTextCompletion</key>
 			<true/>
 		<key>BBLMIsCaseSensitive</key>
-			<false/>
+			<true/>
 		<key>BBLMScansFunctions</key>
 			<false/>
 		<key>BBLMColorsSyntax</key>
@@ -33,6 +33,91 @@
 				<string>foreach</string>
 				<string>endforeach</string>
 				<string>endmacro</string>
+				<string>endfunction</string>
+				<string>abstract_files</string>
+				<string>add_custom_command</string>
+				<string>add_custom_target</string>
+				<string>add_definitions</string>
+				<string>add_dependencies</string>
+				<string>add_executable</string>
+				<string>add_library</string>
+				<string>add_test</string>
+				<string>add_subdirectory</string>
+				<string>aux_source_directory   </string>
+				<string>build_command</string>
+				<string>build_name</string>
+				<string>cmake_minimum_required</string>
+				<string>configure_file</string>
+				<string>create_test_sourcelist  </string>
+				<string>enable_language</string>
+				<string>enable_testing</string>
+				<string>exec_program</string>
+				<string>export_library_dependencies  </string>
+				<string>file</string>
+				<string>find_file</string>
+				<string>find_library</string>
+				<string>find_package</string>
+				<string>find_path</string>
+				<string>find_program</string>
+				<string>fltk_wrap_ui</string>
+				<string>foreach</string>
+				<string>function</string>
+				<string>get_cmake_property</string>
+				<string>get_filename_component</string>
+				<string>get_property</string>
+				<string>get_source_file_property</string>
+				<string>get_target_property</string>
+				<string>include_directories</string>
+				<string>include_external_msproject</string>
+				<string>include_regular_expression</string>
+				<string>include</string>
+				<string>install</string>
+				<string>install_files</string>
+				<string>install_programs</string>
+				<string>install_targets</string>
+				<string>itk_wrap_tcl</string>
+				<string>link_directories</string>
+				<string>link_libraries</string>
+				<string>list</string>
+				<string>load_cache</string>
+				<string>load_command</string>
+				<string>macro</string>
+				<string>make_directory</string>
+				<string>mark_as_advanced</string>
+				<string>message</string>
+				<string>option</string>
+				<string>output_required_files</string>
+				<string>project</string>
+				<string>qt_wrap_cpp</string>
+				<string>qt_wrap_ui</string>
+				<string>remove</string>
+				<string>remove_definitions</string>
+				<string>separate_arguments</string>
+				<string>set</string>
+				<string>set_directory_properties</string>
+				<string>set_source_files_properties</string>
+				<string>set_target_properties</string>
+				<string>site_name</string>
+				<string>source_files</string>
+				<string>source_files_remove</string>
+				<string>source_group</string>
+				<string>subdir_depends</string>
+				<string>subdirs</string>
+				<string>target_link_libraries</string>
+				<string>target_include_directories</string>
+				<string>try_compile</string>
+				<string>try_run</string>
+				<string>use_mangled_mesa</string>
+				<string>utility_source</string>
+				<string>variable_requires</string>
+				<string>vtk_make_instantiator</string>
+				<string>vtk_wrap_java</string>
+				<string>vtk_wrap_tcl</string>
+				<string>wrap_exclude_files</string>
+				<string>write_file</string>
+				<string>include_directories</string>
+				<string>include_regular_expression\ </string>
+				<string>$env</string>
 				<string>ENDFUNCTION</string>
 				<string>ABSTRACT_FILES</string>
 				<string>ADD_CUSTOM_COMMAND</string>
@@ -414,7 +499,7 @@
 				<dict>
 					<key>BBLMLanguageSuffix</key>
 					<string>.ctest</string>
-				</dict>	
+				</dict>
 				<dict>
 					<key>BBLMLanguageSuffix</key>
 					<string>.ctest.in</string>
@@ -454,4 +539,3 @@
 			</dict>
 	</dict>
 </plist>
-	
