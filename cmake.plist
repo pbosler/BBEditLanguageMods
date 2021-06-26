@@ -43,16 +43,19 @@
 				<string>add_library</string>
 				<string>add_test</string>
 				<string>add_subdirectory</string>
-				<string>aux_source_directory   </string>
+				<string>aux_source_directory</string>
+				<string>break</string>
 				<string>build_command</string>
 				<string>build_name</string>
 				<string>cmake_minimum_required</string>
 				<string>configure_file</string>
-				<string>create_test_sourcelist  </string>
+				<string>define_property</string>
+				<string>create_test_sourcelist</string>
 				<string>enable_language</string>
 				<string>enable_testing</string>
 				<string>exec_program</string>
-				<string>export_library_dependencies  </string>
+				<string>export_library_dependencies</string>
+				<string>execute_process</string>
 				<string>file</string>
 				<string>find_file</string>
 				<string>find_library</string>
@@ -95,6 +98,7 @@
 				<string>separate_arguments</string>
 				<string>set</string>
 				<string>set_directory_properties</string>
+				<string>set_property</string>
 				<string>set_source_files_properties</string>
 				<string>set_target_properties</string>
 				<string>site_name</string>
@@ -116,7 +120,7 @@
 				<string>wrap_exclude_files</string>
 				<string>write_file</string>
 				<string>include_directories</string>
-				<string>include_regular_expression\ </string>
+				<string>include_regular_expression\</string>
 				<string>$env</string>
 				<string>ENDFUNCTION</string>
 				<string>ABSTRACT_FILES</string>
@@ -128,16 +132,16 @@
 				<string>ADD_LIBRARY</string>
 				<string>ADD_TEST</string>
 				<string>ADD_SUBDIRECTORY</string>
-				<string>AUX_SOURCE_DIRECTORY   </string>
+				<string>AUX_SOURCE_DIRECTORY</string>
 				<string>BUILD_COMMAND</string>
 				<string>BUILD_NAME</string>
 				<string>CMAKE_MINIMUM_REQUIRED</string>
 				<string>CONFIGURE_FILE</string>
-				<string>CREATE_TEST_SOURCELIST  </string>
+				<string>CREATE_TEST_SOURCELIST</string>
 				<string>ENABLE_LANGUAGE</string>
 				<string>ENABLE_TESTING</string>
 				<string>EXEC_PROGRAM</string>
-				<string>EXPORT_LIBRARY_DEPENDENCIES  </string>
+				<string>EXPORT_LIBRARY_DEPENDENCIES</string>
 				<string>FILE</string>
 				<string>FIND_FILE</string>
 				<string>FIND_LIBRARY</string>
@@ -179,6 +183,7 @@
 				<string>REMOVE_DEFINITIONS</string>
 				<string>SEPARATE_ARGUMENTS</string>
 				<string>SET</string>
+				<string>SET_PROPERTY</string>
 				<string>SET_DIRECTORY_PROPERTIES</string>
 				<string>SET_SOURCE_FILES_PROPERTIES</string>
 				<string>SET_TARGET_PROPERTIES</string>
@@ -201,13 +206,13 @@
 				<string>WRAP_EXCLUDE_FILES</string>
 				<string>WRITE_FILE</string>
 				<string>INCLUDE_DIRECTORIES</string>
-				<string>INCLUDE_REGULAR_EXPRESSION\ </string>
+				<string>INCLUDE_REGULAR_EXPRESSION\</string>
 				<string>$ENV</string>
 			</array>
 		<key>BBLMPredefinedNameList</key>
 			<array>
-				<string>@ONLY </string>
-				<string>-D </string>
+				<string>@ONLY</string>
+				<string>-D</string>
 				<string>CMAKE_BUILD_TYPE</string>
 				<string>ABSOLUTE</string>
 				<string>ALL</string>
@@ -216,7 +221,7 @@
 				<string>ARCHIVE</string>
 				<string>ARGS</string>
 				<string>ASCII</string>
-				<string>BEFORE </string>
+				<string>BEFORE</string>
 				<string>C</string>
 				<string>C++</string>
 				<string>CACHE</string>
@@ -228,10 +233,11 @@
 				<string>COMPILE_DEFENITIONS</string>
 				<string>COMPILE_FLAGS</string>
 				<string>CONFIGURE</string>
-				<string>COPYONLY </string>
+				<string>COPYONLY</string>
 				<string>DEFINED</string>
 				<string>DEPENDS</string>
 				<string>DESTINATION</string>
+				<string>DIRECTORY</string>
 				<string>DOC</string>
 				<string>EQUAL</string>
 				<string>ESCAPE_QUOTES</string>
@@ -240,19 +246,20 @@
 				<string>EXISTS</string>
 				<string>EXPORT_MACRO</string>
 				<string>EXT</string>
-				<string>EXTRA_INCLUDE </string>
+				<string>EXTRA_INCLUDE</string>
 				<string>FATAL_ERROR</string>
 				<string>FALSE</string>
 				<string>FILES</string>
 				<string>FIND</string>
 				<string>FORCE</string>
 				<string>GLOB</string>
+				<string>GLOBAL</string>
 				<string>GLOB_RECURSE</string>
 				<string>GREATER</string>
-				<string>GROUP_SIZE </string>
+				<string>GROUP_SIZE</string>
 				<string>HEADER_LOCATION</string>
 				<string>HINTS</string>
-				<string>IMMEDIATE </string>
+				<string>IMMEDIATE</string>
 				<string>INCLUDE_INTERNALS</string>
 				<string>INCLUDES</string>
 				<string>Java</string>
@@ -270,7 +277,7 @@
 				<string>NO_DEFAULT_PATH</string>
 				<string>NO_SYSTEM_PATH</string>
 				<string>NOT</string>
-				<string>NOTEQUAL </string>
+				<string>NOTEQUAL</string>
 				<string>OPTIONAL</string>
 				<string>OR</string>
 				<string>OUTPUT</string>
@@ -293,7 +300,7 @@
 				<string>REQUIRED</string>
 				<string>RETURN_VALUE</string>
 				<string>REVERSE</string>
-				<string>RUNTIME_DIRECTORY </string>
+				<string>RUNTIME_DIRECTORY</string>
 				<string>SEND_ERROR</string>
 				<string>SHARED</string>
 				<string>SOURCES</string>
@@ -301,15 +308,15 @@
 				<string>STATUS</string>
 				<string>STREQUAL</string>
 				<string>STRGREATER</string>
-				<string>STRLESS </string>
-				<string>TARGET </string>
+				<string>STRLESS</string>
+				<string>TARGET</string>
 				<string>TOLOWER</string>
 				<string>TRUE</string>
-				<string>TOUPPER </string>
-				<string>VERSION </string>
-				<string>WRITE </string>
+				<string>TOUPPER</string>
+				<string>VERSION</string>
+				<string>WRITE</string>
 				<string>ABSTRACT</string>
-				<string>ADDITIONAL_MAKE_CLEAN_FILES </string>
+				<string>ADDITIONAL_MAKE_CLEAN_FILES</string>
 				<string>ARGV0</string>
 				<string>ARGV1</string>
 				<string>ARGV2</string>
@@ -322,13 +329,15 @@
 				<string>ARGV9</string>
 				<string>ARGC</string>
 				<string>ARGN</string>
-				<string>ARGV </string>
-				<string>BOOL </string>
-				<string>COMPILE_FLAGS </string>
-				<string>debug </string>
-				<string>DEFINE_SYMBOL </string>
-				<string>FILEPATH </string>
-				<string>GENERATED </string>
+				<string>ARGV</string>
+				<string>BOOL</string>
+				<string>BRIEF_DOCS</string>
+				<string>COMPILE_FLAGS</string>
+				<string>debug</string>
+				<string>DEFINE_SYMBOL</string>
+				<string>FILEPATH</string>
+				<string>FULL_DOCS</string>
+				<string>GENERATED</string>
 				<string>HEADER_FILE_ONLY</string>
 				<string>LINK_FLAGS</string>
 				<string>optimized</string>
@@ -337,8 +346,8 @@
 				<string>ON</string>
 				<string>PATH PREFIX</string>
 				<string>INTERNAL</string>
-				<string>STRING SUFFIX </string>
-				<string>WIN32 WRAP_EXCLUDE </string>
+				<string>STRING SUFFIX</string>
+				<string>WIN32 WRAP_EXCLUDE</string>
 				<string>PROJECT_BINARY_DIR</string>
 				<string>CMAKE_ROOT</string>
 				<string>CMAKE_INSTALL_PREFIX</string>
@@ -347,7 +356,7 @@
 				<string>CMAKE_CONFIGURATION_TYPES</string>
 				<string>CMAKE_CURRENT_SOURCE_DIR</string>
 				<string>CMAKE_INSTALL_PREFIX</string>
-				<string>POST_INSTALL_SCRIPT </string>
+				<string>POST_INSTALL_SCRIPT</string>
 				<string>PRE_INSTALL_SCRIPT</string>
 				<string>CMAKE_GENERATOR</string>
 				<string>CMAKE_BINARY_DIR</string>
@@ -437,6 +446,7 @@
 				<string>CMAKE_FIND_LIBRARAY_SUFFIXES</string>
 				<string>CMAKE_IMPORT_LIBRARY_PREFIX</string>
 				<string>CMAKE_IMPORT_LIBRARY_SUFFIX</string>
+				<string>CMAKE_INSTALL_LIBDIR</string>
 				<string>CMAKE_LINK_LIBRARY_SUFFIX</string>
 				<string>CMAKE_RC_OUTPUT_EXTENSION</string>
 				<string>CMAKE_RC_SOURCE_FILE_EXTENSIONS</string>
@@ -458,8 +468,13 @@
 				<string>CMAKE_C_CREATE_STATIC_LIBRARY</string>
 				<string>CMAKE_C_COMPILE_OBJECT</string>
 				<string>CMAKE_C_LINK_EXECUTABLE</string>
+				<string>CMAKE_DL_LIBS</string>
+				<string>DIRECTORY</string>
 				<string>ASSEMBLY_SOURCE</string>
 				<string>FLAGS</string>
+				<string>IMPORTED</string>
+				<string>IMPORTED_LOCATION</string>
+				<string>IN</string>
 				<string>LANGUAGE_COMPILE_FLAGS</string>
 				<string>LIBRARY</string>
 				<string>LINK_FLAGS</string>
@@ -469,8 +484,11 @@
 				<string>OBJECTS_QUOTED</string>
 				<string>OBJECT_DIR</string>
 				<string>PREPROCESSED_SOURCE</string>
+				<string>PROPERTY</string>
+				<string>QUIET</string>
 				<string>RUNTIME</string>
 				<string>SOURCE</string>
+				<string>STRING</string>
 				<string>TARGETS</string>
 				<string>TARGET_BASE</string>
 				<string>TARGET_IMPLIB</string>
@@ -481,6 +499,7 @@
 				<string>TARGET_VERSION_MAJOR</string>
 				<string>TARGET_VERSION_MINOR</string>
 				<string>WARNING</string>
+				<string>WORKING_DIRECTORY</string>
 				<string>STATUS</string>
 				<string>AUTHOR_WARNING</string>
 				<string>SEND_ERROR</string>
